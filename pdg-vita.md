@@ -11,20 +11,20 @@
 
 4088 W Hawthorne Trace Rd    
 Apartment 202    
-Brown Deer, WI 53209–1017
+Brown Deer, WI 53209-1017
 
 ## Experience ##
 
 **Johnson Controls, Inc.,** Milwaukee, WI    
 *HVAC Systems Engineer (Experis Contract), Control Applications,* 
-June 2014–Present
+June 2014-Present
 
  - Support engineers using existing thermodynamic models for system testing
  - Convert control algorithm assets for use in a MATLAB/Simulink development process
  - Collaborate as part of a small team working to promote model-based design and code generation
 
 *Graduate Intern, Control Applications and Advanced Algorithms,*
-2010–2012
+2010-2012
 
  - Designed, implemented, and tested 30 warning events for chiller control software
  - Improved automated testing speed in Excel/MATLAB/Simulink simulation by 15%
@@ -45,7 +45,7 @@ SVN
 
 **Marquette University,** Milwaukee, Wisconsin    
 *Master of Science, [Mechanical Engineering](http://www.marquette.edu/engineering/mechanical/),*
-2012–2014
+2012-2014
 
  - Cumulative GPA: 3.44/4.00
  - Energy Systems Specialization
@@ -53,12 +53,12 @@ SVN
  - Thesis: [One-Dimensional Model of a Refrigeration Cycle Compressor Test Block](https://dl.dropboxusercontent.com/u/10724484/resume/pdg_thesis.pdf)
   
 *Graduate Teaching Assistant, Mechanical Engineering Department,*
-2012–2014    
+2012-2014    
 Conducted lab and review sessions for several Controls, Fluids, and Thermodynamics courses
 
 **Milwaukee School of Engineering,** Milwaukee, Wisconsin    
 *Bachelor of Science, [Mechanical Engineering](http://www.msoe.edu/community/academics/mechanical-engineering-department/mechanical-engineering),*
-2008–2012
+2008-2012
 
  - Cumulative GPA: 3.56/4.00
  - [Mathematics Minor](http://www.msoe.edu/community/academics/minors/page/1448/mathematics-minor)
@@ -73,18 +73,18 @@ Conducted lab and review sessions for several Controls, Fluids, and Thermodynami
 ## Leadership Experience ##
 
 **MSOE Society of Automotive Engineers,** Milwaukee, WI    
-*Chairman,* 2011–2012
+*Chairman,* 2011-2012
 
  - Oversaw the general operation of the 150-member MSOE Student Chapter
  - Coordinated with professionals in nearby SAE Chapters to organize monthly events
   
-*Technical Lead, Supermileage Vehicle Steering Team,* 2010–2011
+*Technical Lead, Supermileage Vehicle Steering Team,* 2010-2011
  
  - Co-authored and edited the [Design Report](https://dl.dropbox.com/u/10724484/resume/MSOE_CarbonairDesignReport2011.pdf) (First Place, Design Report Competition)
  - Designed, analyzed, manufactured, and tested suspension frame and integrated with vehicle design
 
 **MSOE Residence Life,** Milwaukee, WI     
-*Resident Assistant,* 2010–2012   
+*Resident Assistant,* 2010-2012   
 Provided academic, personal, and professional advice and planned floor events for 35 students
 
 ## Publications ##
