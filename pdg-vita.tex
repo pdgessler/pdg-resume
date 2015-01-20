@@ -1,0 +1,221 @@
+\documentclass[12pt,letterpaper]{article}
+
+% Resume metadata
+\def\myauthor{Paul Gessler}
+\def\mytitle{pdg-vita}
+\def\myemail{pdgessler@gmail.com}
+\def\myweb{pdgessler}
+\def\myphone{414-241-1627}
+\def\mykeywords{paul gessler, resume, curriculum, vita, curriculum vita, cv, paul, gessler, pdg}
+
+% Indents and marginpar width
+\setlength{\parindent}{0pt}
+\setlength\marginparwidth{0.2in}
+
+% "Section headings"
+\newcommand{\marker}[1]{\leavevmode\marginpar{\centering\textcolor{marker}{#1}}}
+
+% Styled terminology
+\newcommand{\ML}{\textsc{Matlab}}
+\newcommand{\Simu}{Simulink}
+\newcommand{\MLS}{\ML{}/\Simu{}}
+\newcommand{\CPP}{C/C++}
+\newcommand{\twoD}{2\textsc{D}}
+\renewcommand{\date}[1]{{\addfontfeature{Numbers=OldStyle} #1}}
+\newcommand{\rdate}[1]{{\addfontfeature{Numbers={Monospaced}} \hfill \date{#1}}}
+
+% Named accent color deep red
+\usepackage{xcolor}
+\definecolor{marker}{HTML}{AA0000}
+
+% List setup
+\usepackage{enumitem}
+\setlist{nosep,leftmargin=0.15in}
+\renewcommand{\labelitemi}{-}
+
+% Silence warnings
+\usepackage[log-declarations=false]{xparse}
+
+% Load otf system fonts without touching maths
+\usepackage[no-math]{fontspec}
+\defaultfontfeatures{Numbers=Proportional}
+\setmainfont[BoldFont=Chaparral Pro Semibold]{Chaparral Pro}
+\setsansfont[ItalicFont=Myriad Pro Light Italic]{Myriad Pro Light}
+
+% FontAwesome glyphs (scaled)
+\defaultfontfeatures[FontAwesome]{Scale=0.9}
+\usepackage{fontawesome}
+
+% New symbols not yet declared in the CTAN package
+\providecommand\faMortar{{\FA\symbol{"F19D}}}
+\providecommand\faUniversity{{\FA\symbol{"F19C}}}
+\providecommand\faSlideshare{{\FA\symbol{"F1E7}}}
+\providecommand\faBinoculars{{\FA\symbol{"F1E5}}}
+
+% Microtypography
+\usepackage{microtype}
+
+% Page layout
+\usepackage[margin=0.75in,top=0.625in,right=0.625in]{geometry}
+
+% Hyperlinks and ocg fixes
+\usepackage[
+  ocgcolorlinks,
+  urlcolor={[rgb]{0,0,0.54}},
+  unicode,
+  plainpages=false,
+  pdfpagelabels,
+  pdftitle={\mytitle},
+  pdfauthor={\myauthor},
+  pdfkeywords={\mykeywords}
+]{hyperref}
+\usepackage{ocg-fix}
+
+\begin{document}
+\thispagestyle{empty}% No page number
+\reversemarginpar% We want marginpar in the "gutter" here
+% Header
+{\sffamily
+\begin{tabular}[b]{@{}l@{}}
+\fontspec{Chaparral Pro Light Disp}
+\fontsize{34}{36}\selectfont \scshape Paul D. Gessler\par \\
+\small \emph{HVAC Controls Engineer; Member ASHRAE}
+\end{tabular}}
+\hfill
+{\small \sffamily
+\begin{tabular}[b]{lr@{}}
+  4088 W Hawthorne Trace Rd &
+  \href{tel:\myphone}{\myphone} \\
+  Apartment 202 &
+  \href{mailto:\myemail}{\myemail} \\
+  Brown Deer, WI~~53209–1017 &
+  \href{https://www.github.com/\myweb}%
+    {\faGithubSign}~\href{https://www.linkedin.com/in/\myweb}{\faLinkedinSign~\myweb}
+\end{tabular}}
+
+% Here comes the main content
+\medskip
+\marker{\faBriefcase}% Experience
+\textbf{Johnson Controls, Inc.,} Milwaukee, WI \newline
+  \emph{HVAC Systems Engineer (Experis Contract), Control Applications} 
+    \rdate{\textsc{june}~2014–\textsc{present}}
+  \begin{itemize}
+    \item Support engineers using existing thermodynamic models for system testing
+    \item Convert control algorithm assets for use in a \MLS{} development process
+    \item Collaborate as part of a small team working to promote model-based design and code generation
+  \end{itemize}
+  
+  \medskip
+  \emph{Graduate Intern, Control Applications and Advanced Algorithms} \rdate{2010–2012}
+  \begin{itemize}
+    \item Designed, implemented, and tested 30 warning events for chiller control software
+    \item Improved automated testing speed in Excel/\MLS{} simulation by 15\%
+  \end{itemize}
+
+\bigskip
+\marker{\faDesktop}% Software Proficiencies
+\MLS{},
+Simulink Coder,
+\CPP{},
+CCT,
+EES,
+REFPROP,
+Microsoft Office Suite,
+Git,
+SVN
+
+\bigskip
+\marker{\faMortar}% Education
+\textbf{Marquette University,} Milwaukee, Wisconsin \newline
+  \emph{Master of Science, 
+    \href{http://www.marquette.edu/engineering/mechanical/}{Mechanical Engineering}} 
+    \rdate{2012–2014}
+  \begin{itemize}
+    \item Cumulative GPA: 3.44/4.00;
+      {Energy Systems Specialization};
+      Advisor: Dr.~M.M.~Mathison
+    \item Thesis: \href{https://dl.dropboxusercontent.com/u/10724484/resume/pdg_thesis.pdf}%
+      {One-Dimensional Model of a Refrigeration Cycle Compressor Test Block}
+  \end{itemize}
+  
+  \medskip
+  \emph{Graduate Teaching Assistant, Mechanical Engineering Department} 
+    \rdate{2012–2014}\newline
+  Conducted lab and review sessions for several Controls, Fluids, and Thermodynamics courses
+
+\medskip
+\textbf{Milwaukee School of Engineering,} Milwaukee, Wisconsin \newline
+  \emph{Bachelor of Science, 
+    \href{http://www.msoe.edu/community/academics/mechanical-engineering-department/mechanical-engineering}%
+    {Mechanical Engineering}} \rdate{2008–2012}
+  \begin{itemize}
+    \item Cumulative GPA: 3.56/4.00; 
+      \href{http://www.msoe.edu/community/academics/minors/page/1448/mathematics-minor}{Math Minor};
+      Advisors: Prof.~T.J.~Labus and Dr.~V.C.~Prantil
+    \item Senior Project: 
+      \href{https://dl.dropbox.com/u/10724484/resume/ME492_2012_Design_Report_PulseWaterJet.pdf}%
+      {Modeling of Pulsed Jet Impingement on Brittle Materials}
+  \end{itemize} 
+
+\bigskip
+\marker{\faCertificate}% Recent Honors/Awards
+Department Teaching Assistant Honors, Marquette University, Milwaukee, WI 
+  \rdate{\textsc{may}~2014}\newline
+First Place, \href{https://dl.dropboxusercontent.com/u/10724484/resume/pdg_poster_2014.pdf}%
+  {Poster Competition}, Marquette University, Milwaukee, WI  
+  \rdate{\textsc{april}~2014}
+
+\bigskip
+\marker{\faGroup}% Leadership Experience
+\textbf{MSOE Society of Automotive Engineers,} Milwaukee, WI \newline
+  \emph{Chairman} \rdate{2011–2012}
+  \begin{itemize}
+    \item Oversaw the general operation of the 150-member MSOE Student Chapter
+    \item Coordinated with professionals in nearby SAE Chapters to organize monthly events
+  \end{itemize}
+  
+  \medskip
+  \emph{Technical Lead, Supermileage Vehicle Steering Team} \rdate{2010–2011}
+  \begin{itemize}
+    \item Co-authored and edited the 
+      \href{https://dl.dropbox.com/u/10724484/resume/MSOE_CarbonairDesignReport2011.pdf}%
+      {Design Report} (First Place, Design Report Competition)
+    \item Designed, analyzed, manufactured, and tested suspension frame and integrated with vehicle design
+  \end{itemize}
+
+\medskip
+\textbf{MSOE Residence Life,} Milwaukee, WI \newline
+  \emph{Resident Assistant} \rdate{2010–2012}\newline
+  Provided academic, personal, and professional advice and planned floor events for 35 students
+
+\bigskip % Publications
+\marker{\faBook}%
+\par\vspace{-\baselineskip}\textbf{Gessler, P.D.,} Mathison, M.M., \& Bowman, A.J.~%
+  (\date{17 \textsc{july} 2014}).
+  \emph{\href{https://www.conftool.com/2014Purdue/index.php/Gessler-2014-Modeling_of_a_Hot_Gas_Bypass_Test_Block_for_Centrifugal_Compressors-1549_a.pdf?page=downloadPaper&filename=Gessler-2014-Modeling_of_a_Hot_Gas_Bypass_Test_Block_for_Centrifugal_Compressors-1549_a.pdf&form_id=1549&form_version=final}%
+  {Modeling of a Hot Gas Bypass Test Block for Centrifugal Compressors}}.
+  Presented at Int'l Comp.~Eng.~Conf.~at Purdue University, West Lafayette, IN.
+
+  Prantil, V.C., Papadopoulos, C., \& \textbf{Gessler, P.D.} (\date{2013}).
+  \emph{\href{http://www.morganclaypool.com/doi/abs/10.2200/S00503ED1V01Y201305ENG023}%
+  {Lying By Approximation: The Truth about Finite Element Analysis}}.
+  San Francisco, CA: Morgan \& Claypool Publishers.
+
+\bigskip % Invited Talks
+\marker{\faSlideshare}%
+\emph{FEA for Thermal Applications: Developing A Transient, \twoD\ Code.}
+Guest lecture at MSOE. \rdate{6~\textsc{nov.}~2014}
+
+\emph{Introduction to Model-Based Design for Transportation.}
+Presentation to MSOE SAE. \rdate{30~\textsc{sept.}~2013}
+
+\bigskip % Activities and Interests
+\marker{\faExternalLink}%
+Cycling,
+Running,
+Backpacking,
+Photography,
+Graphic/Web Design,
+\TeX\ Typesetting,
+Trumpet Performance
+\end{document}
