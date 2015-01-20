@@ -2,13 +2,16 @@
 
 **HVAC Controls Engineer; Member ASHRAE**
 
+<sub>This plaintext version of my resume is optimized for digital document processing systems. Please email me at pdgessler@gmail.com for a more human-friendly format.</sub>
+
 ## Contact Information ##
 
-[414-241-1627](tel:414-241-1627)    
-[pdgessler@gmail.com](mailto:pdgessler@gmail.com)    
-[GitHub Profile](https://www.github.com/pdgessler)    
-[LinkedIn Profile](https://www.linkedin.com/in/pdgessler)
+Mobile: 414-241-1627     
+Email: pdgessler@gmail.com    
+LinkedIn Profile: https://www.linkedin.com/in/pdgessler    
+GitHub Profile: https://www.github.com/pdgessler    
 
+Mailing Address:   
 4088 W Hawthorne Trace Rd    
 Apartment 202    
 Brown Deer, WI 53209-1017
